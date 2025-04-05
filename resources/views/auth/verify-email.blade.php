@@ -8,7 +8,7 @@
         @endif
         <form action="{{ route('login') }}" method="post" class="space-y-4 ">
             @csrf
-            
+
 
             <button class="rounded-md bg-gray-900 cursor-pointer text-white hover:bg-gray-950 px-4 py-2" type="submit">Login</button>
         </form>
